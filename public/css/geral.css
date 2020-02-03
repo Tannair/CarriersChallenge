@@ -1,0 +1,94 @@
+.input, .dataTables_filter input {
+    border: none !important;
+    border-bottom: 1px solid #069 !important;
+    background: none;
+    outline: none !important;
+    padding: 6px 5px !important;
+    text-align: center !important;
+    text-align-last: center !important;
+    box-shadow: none !important;
+    border-radius: unset !important;
+}
+
+.table td {
+    border-top: none !important;
+}
+
+.btn.btn-sm.btn-edit {
+    box-shadow: none !important;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: #EEEEEE;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    border-color: #d9d9d9;
+}
+
+.btn.btn-sm.btn-trash {
+    box-shadow: none !important;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: #EEEEEE;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    border-color: #d9d9d9;
+}
+
+.btn.btn-edit:hover, .btn.btn-edit:active, .btn.btn-edit.active { /* .btn.btn-xs:focus,*/
+    color: #40a9ff !important;
+    background: #EEEEEE !important;
+    border-color: #40a9ff !important;
+}
+
+.btn.btn-trash:hover, .btn.btn-trash:active, .btn.btn-trash.active { /* .btn.btn-xs:focus,*/
+    color: red !important;
+    background: #EEEEEE !important;
+    border-color: red !important;
+}
+
+.overlay, .loading-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.overlay {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    z-index: 1010;
+}
+
+.loading-img {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../img/Spinner-0.8s-40px.gif");
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    z-index: 1020;
+}
+
+.alert-success {
+    color:#155724!important;
+    background-color:#d4edda!important;
+    border-color:#c3e6cb!important;
+    max-height: 30px;
+    font-size: 12px;
+    max-width: 170px;
+    padding: 2px !important;
+    margin-bottom: -5px;
+    margin-left: 40%;
+    text-align: center;
+    display: none;
+}
+
+.sidebar-dark-orange .nav-sidebar>.nav-item>.nav-link.active,.sidebar-light-orange .nav-sidebar>.nav-item>.nav-link.active{background-color:#FF3A00 !important;/*color:#1f2d3d !important;*/}.sidebar-dark-orange .nav-sidebar.nav-legacy>.nav-item>.nav-link.active,.sidebar-light-orange .nav-sidebar.nav-legacy>.nav-item>.nav-link.active{border-color:#FF3A00 !important;}
