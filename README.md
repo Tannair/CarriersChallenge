@@ -1,4 +1,4 @@
-Após clonar o projeto rodar os seguintes comandos para seu completo funcionamentoÇ
+Após clonar o projeto rodar os seguintes comandos para seu completo funcionamento:
 
 Composer install
 Composer update 
@@ -11,4 +11,6 @@ As credenciais para logar no sistema são:
 
 E-mail: felipe@carriers.com
 Senha: 123456
+
+Qualquer dúvida fico a disposição. 
 
